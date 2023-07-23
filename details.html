@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="unreal.css">
+    <script src="https://kit.fontawesome.com/058413673b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="floatimg">
+            <img src="" alt="">
+        </div>
+        <div class="container">
+            <nav>
+                <img src="messi.jpeg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#" target="_blank">BLOG</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <div class="fas cross" onclick="closemenu()">✕</div>
+                </ul>
+                <div class="fas hamburger" onclick="openmenu()">☰</div>
+            </nav>
+            <br>
+            <hr size="2px">
+            <div class="header-text">
+                <p>Computer Science Student </p>
+                <h1>Hi,I am <span>Nabin</span> <br>Tiwari </h1>
+                <!-- <input type="button" value="Contact Me"> -->
+            </div>
+        </div>
+    </div>
+    <hr noshade="" height="4px">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nabin4.PNG" alt="MYPhoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-me">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti ad ipsum praesentium quo
+                        minima commodi, ex, magnam sed id vitae adipisci. Eaque facilis vel, repellat amet optio
+                        architecto ea suscipit, nostrum ab illo voluptatum aliquid praesentium eius fugiat voluptatibus
+                        laborum iste! Vitae culpa velit ut atque maxime esse dolore!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li> <span>UI/UX</span> Designing User Interface for Website </li>
+                            <li> <span>Coder</span> Compitative Coder </li>
+                            <li> <span>Student</span> B.Tech CSE Student</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2022-Present</span> MIT INSTITUTE</li>
+                            <li> <span>2020-21</span> LEETCODE </li>
+                            <li> <span>2020-2023</span> Intershala Student Partner</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>GRADE 10 <span>
+                                        <h4>
+                                            <pre>&bull;    2018 AD (2076 BS )</pre>
+                                        </h4>
+                                    </span></span>Shree Janahit Secondary School</li>
+                            <li> <span>Grade 12<span>
+                                        <h4>
+                                            <pre>&bull;    2020 AD (2078 BS)</pre>
+                                        </h4>
+                                    </span></span>Pioneers Higher Secondary School</li>
+                            <li> <span>Bachelor of Technology (CSE)<span>
+                                        <h4>
+                                            <pre>&bull;    2021-2025 AD</pre>
+                                        </h4>
+                                    </span></span>LNCT University</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr height="4px" noshade="">
+    <!-- Services -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="about-me">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FrontEnd Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit iste animi provident id? Facere
+                        facilis architecto non, quis, vitae esse consequatur quaerat repellendus, alias ipsam dolores
+                        nisi iste adipisci pariatur.</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack" style="color: #ffffff;"></i>
+                    <h2>BackEnd Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit iste animi provident id? Facere
+                        facilis
+                        architecto non, quis, vitae esse consequatur quaerat repellendus, alias ipsam dolores nisi iste
+                        adipisci
+                        pariatur.</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Application Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit iste animi provident id? Facere
+                        facilis
+                        architecto non, quis, vitae esse consequatur quaerat repellendus, alias ipsam dolores nisi iste
+                        adipisci
+                        pariatur.</p>
+                    <a href="#" class="readmore">Read More</a>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More Services</a>
+        </div>
+    </div>
+
+
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="about-me">Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="nabin1.jpg" alt="">
+                    <div class="layer active">
+                        <h3>Nabin : True Messi Fan</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore sapiente placeat quia
+                            molestiae aperiam rerum ipsum quibusdam quidem cupiditate, ut illum nulla
+                        </p>
+                        <a href="#" class="readmore">Read More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="nabin4.PNG" alt="">
+                    <div class="layer">
+                        <h3>Nabin : True Messi Fan</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore sapiente placeat quia
+                            molestiae aperiam
+                            rerum
+                            ipsum quibusdam quidem cupiditate, ut illum nulla
+                        </p>
+                        <a href="#" class="readmore">Read More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="nabin3.png" alt="">
+                    <div class="layer">
+                        <h3>Nabin : True Messi Fan</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore sapiente placeat quia
+                            molestiae aperiam
+                            rerum
+                            ipsum quibusdam quidem cupiditate, ut illum nulla
+                        </p>
+                        <a href="#" class="readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More Works</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <h1 class="about-me contact">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <div class="contactimg"></div>
+                    <p> <i class="fa-solid fa-envelope"></i> nabintywari111@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone-volume"></i> +9779848444885</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nabintywari"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/tywarinabin/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/tywarinabin/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/nabin-tiwari-4a8123229/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h2 style="text-align: center; margin: 40px 10px; max-lines: 1;">Give Feedback to Us</h2>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Enter Your Name *" required name="Name" minlength="4">
+                        <input type="email" name="email" placeholder="Enter your e-mail  *" id="email" required
+                            minlength="10">
+                        <textarea name="Message" id="message" rows="7" placeholder="Enter Message here* " minlength="10"
+                            required></textarea>
+                        <input type="submit" value="Submit" class="btn stylebtn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tab_open) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tab_open).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.left = "0";
+        }
+        function closemenu() {
+            sidemenu.style.left = "-100vw";
+        }
+    </script>
+    <div class="copyright">
+        <p>
+            &copy; All rights reserved | Designed by TiwariTechnology <i class="fa-solid fa-heart"
+                style="color: #ff0000;"></i> (TT)
+        </p>
+    </div>
+</body>
+
+</html>
