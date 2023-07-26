@@ -617,13 +617,13 @@ nav .fas {
     }
 
     .tab-titles p {
-        color: black;
+        color: lightskyblue;
         font-weight: 40px;
         font-weight: bolder;
     }
 
     .tab-contents {
-        margin-left: 7em;
+        margin-left: 0;
     }
 
     .about-col-2 {
