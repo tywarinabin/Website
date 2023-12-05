@@ -392,12 +392,12 @@ span>h4 {
 } */
 
 .work img:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .work:hover .layer {
     height: 70%;
-    transform: scale(0.95);
+    transform: scale(0.90);
     padding: 1rem;
 }
 
@@ -612,7 +612,7 @@ nav .fas {
     }
 
     .tab-links {
-        font-size: 14px;
+        font-size: 20px;
         margin-right: 15px;
     }
 
