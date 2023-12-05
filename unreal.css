@@ -350,7 +350,7 @@ span>h4 {
     /* height: 100%; */
     padding: 0px 30px;
     text-align: center;
-    background: rgba(244, 0, 0, 0.3);
+    background: rgb(0 0 0 / 30%);
     border-radius: 10px;
     position: absolute;
     left: 0px;
@@ -364,12 +364,12 @@ span>h4 {
 }
 
 .layer h3 {
-    font-weight: 600;
+     font-weight: 600;
     margin-bottom: 20px;
-    color: black;
+    color: #19db04;
     letter-spacing: .3px;
     word-wrap: break-word;
-    text-shadow: 1px 1px red;
+    /* text-shadow: 1px 1px red; */
 }
 
 .layer p {
