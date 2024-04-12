@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 1rem 0.05rem;
     /* This two lines are added by me. */
     /* display: flex;
     flex-direction: column; */
@@ -166,6 +166,7 @@ nav ul li a:visited {
 
 .about-col-2 {
     flex-basis: 60%;
+    margin-left:0.05rem;
 }
 
 .about-me {
