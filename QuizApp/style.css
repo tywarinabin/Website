@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100% !important;
+    height: 100vh;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: .1rem auto 0;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.app h1 {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: .7rem;
+    text-align: center;
+}
+
+.quiz h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000204;
+    padding: .7rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin: 1rem .1rem;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 700;
+    width: 100%;
+    border: 1px solid #252402;
+    padding: 1rem;
+    margin: .5rem .1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+    background: #4889f3;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    width: 150px;
+    border: 0;
+    padding: .5rem .2rem;
+    border-radius: .2rem;
+    margin: 1rem auto 0;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    display: none;
+}
+
+.correct {
+    background: #66f817;
+}
+
+.incorrect {
+    background: #f62f2f;
+}
+
+#image {
+    max-width: 30%;
+    padding: .2rem;
+    /* Ensure image fits within container */
+    margin: auto;
+    /* Add spacing between question and image */
+}
+
+.app2 a {
+    text-decoration: none;
+    color: #f2fa00;
+    text-align: center;
+    transition: all .2s ease-out;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media (max-width:500px) {
+    .app {
+        width: 100% !important;
+        margin: 0;
+        padding: .2rem;
+    }
+
+    .btn {
+        padding: .6rem .3rem;
+        margin: 1rem auto 0;
+    }
+
+    #next-btn {
+        margin-bottom: 1rem;
+    }
+
+    .btn1 {
+        display: block;
+        position: absolute;
+        top: .1rem;
+        right: .1rem;
+        background: rgb(255, 0, 0);
+        padding: 1rem;
+        border-radius: 50%;
+        cursor: pointer;
+
+
+    }
+
+}
+
+.app2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vh;
+    margin: 20vh auto;
+    border: 1px solid rgb(117, 255, 4);
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    background: #001e4d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app2:hover {
+    background: #024149;
+}
+
+.btn1 {
+    display: block;
+    position: absolute;
+    top: .8rem;
+    right: .2rem;
+    background: rgb(255, 0, 0);
+    padding: .7rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+a {
+    text-decoration: none;
+}
